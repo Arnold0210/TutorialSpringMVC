@@ -13,6 +13,7 @@ public class User {
     private String name;
     private String password;
     private String Email;
+    
     @DateTimeFormat(pattern="dd/MM/yyyy")
     private LocalDate birthDate;
     private String country;
